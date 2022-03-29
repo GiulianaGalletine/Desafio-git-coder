@@ -59,6 +59,13 @@ h1{
 	color: aliceblue;
 	margin: 20px;
 	font-size: 300%;
+	transition: transform 2s;
+	width: 200px;
+	display: flex;
+}
+h1:hover{
+	width: 300px;
+	transform: scale(1.1);	
 }
 h2{
 	color:aliceblue;
